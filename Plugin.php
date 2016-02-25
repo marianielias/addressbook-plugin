@@ -23,7 +23,7 @@ class Plugin extends PluginBase
             'description' => 'fencus.addressbook::lang.plugin.description',
             'author'      => 'Elias M. Mariani, Ariel M. Carrettoni',
             'icon'        => 'icon-book',
-        	'homepage'    => 'https://www.fencus.com.ar'
+        	'homepage'    => 'http://www.fencus.com.ar'
         ];
     }
 
