@@ -1,0 +1,39 @@
+<div class="panel panel-default">
+	<div class="panel-heading"><h3>{{ __SELF__.translate("fencus.addressbook::lang.addressbook_component.addressbook") }}</h3></div>
+	<div class="panel-body">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>{{ __SELF__.translate("fencus.addressbook::lang.fields.name") }}</th>
+					<th>{{ __SELF__.translate("fencus.addressbook::lang.fields.birthday") }}</th>
+					<th>{{ __SELF__.translate("fencus.addressbook::lang.fields.address") }}</th>
+					<th>{{ __SELF__.translate("fencus.addressbook::lang.fields.telephone") }}</th>
+					<th>{{ __SELF__.translate("fencus.addressbook::lang.fields.email") }}</th>
+					<th>{{ __SELF__.translate("fencus.addressbook::lang.fields.short_description") }}</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for person in __SELF__.people %}
+				<tr>
+					<td><a href="{{ person.url }}">{{ person.name }}</a></td>
+					<td>{{ person.birthday }}</td>
+					<td>{{ person.address }}</td>
+					<td>{{ person.telephone }}</td>
+					<td><a href="mailto:{{ person.email }}">{{ person.email }}</a></td>
+					<td>{{ person.short_description }}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+<div>
+    <div class="text-center">
+        {% partial __SELF__ ~ "::pagination-list" records=__SELF__.people %}
+    </div>
+    <div class="text-right posts-total-summary">
+        <p>{{ __SELF__.people.firstItem }}-{{ __SELF__.people.lastItem }} {{ __SELF__.translate("fencus.addressbook::lang.common.of") }} {{ __SELF__.people.total }}</p>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="panel panel-default">
+	<div class="panel-heading"><h3>{{ __SELF__.person.name }}</h3></div>
+	<div class="panel-body">
+	<table class="table table-striped">
+		<tbody>
+			<tr><td class="text-right"><b>{{ __SELF__.translate("fencus.addressbook::lang.fields.birthday") }}</b></td><td>{{ __SELF__.person.birthday }}</td></tr>
+			<tr><td class="text-right"><b>{{ __SELF__.translate("fencus.addressbook::lang.fields.address") }}</b></td><td>{{ __SELF__.person.address }}</td></tr>
+			<tr><td class="text-right"><b>{{ __SELF__.translate("fencus.addressbook::lang.fields.telephone") }}</b></td><td>{{ __SELF__.person.telephone }}</td></tr>
+			<tr><td class="text-right"><b>{{ __SELF__.translate("fencus.addressbook::lang.fields.email") }}</b></td><td><a href="mailto:{{ __SELF__.person.email }}">{{ __SELF__.person.email }}</a></td></tr>
+			<tr><td class="text-right"><b>{{ __SELF__.translate("fencus.addressbook::lang.fields.short_description") }}</b></td><td>{{ __SELF__.person.short_description }}</td></tr>
+		</tbody>
+	</table>
+	</div>
+</div>
+<div class="text-right"><h4><a href="{{ __SELF__.addressbookPage|page }}">{{ __SELF__.translate("fencus.addressbook::lang.person_component.return_to_addressbook") }}</a></h4></div>

@@ -1,0 +1,29 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: fencus.addressbook::lang.fields.name
+        searchable: true
+        type: text
+        
+    birthday:
+        label: fencus.addressbook::lang.fields.birthday
+        type: date
+        
+    address:
+        label: fencus.addressbook::lang.fields.address
+        type: address-finder
+        
+    telephone:
+        label: fencus.addressbook::lang.fields.telephone
+        type: text
+        
+    email:
+        label: fencus.addressbook::lang.fields.email
+        type: text
+        
+    short_description:
+        label: fencus.addressbook::lang.fields.short_description
+        type: text

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: fencus.addressbook::lang.people.person
+
+# Model Form Field configuration
+form: $/fencus/addressbook/models/person/fields.yaml
+
+# Model Class name
+modelClass: Fencus\AddressBook\Models\Person
+
+# Default redirect location
+defaultRedirect: fencus/addressbook/people
+
+# Create page
+create:
+    title: fencus.addressbook::lang.people.create_person
+    redirect: fencus/addressbook/people/update/:id
+    redirectClose: fencus/addressbook/people
+
+# Update page
+update:
+    title: fencus.addressbook::lang.people.edit_person
+    redirect: fencus/addressbook/people
+    redirectClose: fencus/addressbook/people
+
+# Preview page
+preview:
+    title: fencus.addressbook::lang.people.preview_person

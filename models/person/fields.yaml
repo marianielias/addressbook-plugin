@@ -1,0 +1,37 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: fencus.addressbook::lang.fields.name
+        required: true
+        type: text
+        span: left
+        
+    birthday:
+        label: fencus.addressbook::lang.fields.birthday
+        type: datepicker
+        mode: date
+        span: right
+        
+    address:
+        label: fencus.addressbook::lang.fields.address
+        type: address-finder
+        span: left
+        
+    telephone:
+        label: fencus.addressbook::lang.fields.telephone
+        type: text
+        span: right
+        
+    email:
+        label: fencus.addressbook::lang.fields.email
+        type: text
+        span: left
+        
+    short_description:
+        label: fencus.addressbook::lang.fields.short_description
+        type: text
+        attributes:
+            maxlength: 255
