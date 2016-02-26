@@ -9,10 +9,10 @@ return [
 	'fields' => [
 		'name' => 'Nombre',
 		'birthday' => 'Cumpleaños',
-		'address' => 'Direccion',
-		'telephone' => 'Telefono',
+		'address' => 'Dirección',
+		'telephone' => 'Teléfono',
 		'email' => 'E-Mail',
-		'short_description' => 'Descripcion corta',
+		'short_description' => 'Descripción corta',
 	],
 	'person_component' => [
 		'name' => 'Componente de Persona',
