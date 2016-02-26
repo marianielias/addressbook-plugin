@@ -1,4 +1,4 @@
-<?php namespace Fencus\RealEstate\Updates;
+<?php namespace Fencus\AddressBook\Updates;
 
 use Fencus\AddressBook\Models\Person;
 use October\Rain\Database\Updates\Seeder;
