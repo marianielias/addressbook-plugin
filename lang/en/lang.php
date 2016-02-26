@@ -2,7 +2,7 @@
 
 return [
     'plugin' => [
-        'name' => 'Address book',
+        'name' => 'Address Book',
         'description' => 'An address book management plugin.',
     	'access' => 'Manage Address Book Plugin',
     ],
