@@ -1,8 +1,8 @@
 # Fencus Address Book Plugin
 
-An Address book management plugin.
+An address book management plugin.
 
-## Plugin Dependencies
+## Plugin dependencies
 
 This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercms.com/plugin/fencus-googlemapswidgets).
 
@@ -16,5 +16,5 @@ Manage your contacts and display them on the front-end through a single componen
 ## Contents of this plugin
 
 * A simple contact manager on the back-end using the **Address Finder FormWidget** from **Fencus Google Maps Widgets Plugin** to find and format the address of each contact.
-* A simple Address Book component to show your contacts on the front-end.
-* A simple Person component to show the details of a given contact.
+* A simple address book component to show your contacts on the front-end.
+* A simple person component to show the details of a given contact.
