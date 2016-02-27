@@ -10,7 +10,7 @@ This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercm
 
 Manage your contacts and display them on the front-end through a single component.
 
-* Find a demo [here](http://www.fencus.com.ar/demo).
+* Find a demo [here](http://www.flinger.com.ar/demos/googlemaps/).
 * This plugin aims to be an example of the funcionality of **Address Finder FormWidget** from **Fencus Google Maps Widgets Plugin**.
 
 ## Contents of this plugin
