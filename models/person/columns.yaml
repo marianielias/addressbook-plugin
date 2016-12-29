@@ -14,7 +14,7 @@ columns:
         
     address:
         label: fencus.addressbook::lang.fields.address
-        type: address-finder
+        type: text
         
     telephone:
         label: fencus.addressbook::lang.fields.telephone
